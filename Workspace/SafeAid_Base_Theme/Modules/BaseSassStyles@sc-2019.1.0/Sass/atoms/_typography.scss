@@ -1,5 +1,5 @@
 body {
-    font-family: $sc-body-font-family;
+    font-family: $sc-body-font-family,sans-serif;
     font-size: $sc-body-font-size;
     font-style: $sc-body-font-style;
     line-height: $sc-body-line-height;
@@ -38,7 +38,7 @@ h4 {
 
 h1 {
     color: $sc-color-h1;
-    font-family: $sc-h1-font-family;
+    font-family: $sc-h1-font-family,sans-serif;
     font-size: $sc-h1-font-size;
     font-style: $sc-h1-font-style;
     text-decoration: $sc-h1-text-decoration;
@@ -55,7 +55,7 @@ h1 {
 
 h2 {
     color: $sc-color-h2;
-    font-family: $sc-h2-font-family;
+    font-family: $sc-h2-font-family,sans-serif;
     font-size: $sc-h2-font-size;
     font-style: $sc-h2-font-style;
     text-decoration: $sc-h2-text-decoration;
@@ -135,7 +135,7 @@ h6 {
 }
 
 p {
-    font-family: $sc-body-font-family;
+    font-family: $sc-body-font-family,sans-serif;
     font-size: $sc-body-font-size;
     font-style: $sc-body-font-style;
     line-height: $sc-body-line-height;
@@ -296,6 +296,16 @@ blockquote {
         font-size: $sc-font-size-xxxl;
     }
 }
+.medium-price {
+    color: $sc-color-copy-dark;
+    font-size: $sc-font-size-xl;
+    font-weight: $sc-font-weight-semibold;
+    line-height: 1.2;
+
+    @media (min-width: $screen-md-min) {
+        font-size: $sc-font-size-xxl;
+    }
+}
 
 .middle-price {
     font-size: $sc-font-size-m;
@@ -306,6 +316,10 @@ blockquote {
 .small-price {
     font-size:14px;
     color: $sc-color-primary;
+}
+.ex-vat{
+    font-size: $sc-font-size-xs;
+    color:#888;
 }
 
 .old-price {
