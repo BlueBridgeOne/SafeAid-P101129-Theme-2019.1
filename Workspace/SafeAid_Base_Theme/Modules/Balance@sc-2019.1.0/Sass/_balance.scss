@@ -10,6 +10,8 @@ $color-balance-progress-bar: #2d9e6f;
 
 .balance-content {
 	@extend .box-column;
+	background-color: transparent;
+	margin-bottom:0;
 }
 
 .balance-billing-header {
@@ -192,6 +194,7 @@ $color-balance-progress-bar: #2d9e6f;
 		float: left;
 		width:100%;
 	}
+	margin-bottom:$sc-margin-lv3;
 }
 
 .balance-actions-proceed {
